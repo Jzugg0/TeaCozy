@@ -25,7 +25,7 @@ header{
 nav{
   display: inline-flex;
   padding-left: 50px;
-  margin-left: 280px;
+  margin-left: 400px;
 }
 a{
   color: white;
@@ -65,30 +65,46 @@ body{
 }
 #fall{
   display: flex;
-  height: 200px;
+  height: 275px;
   width: 300px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+
 }
 #rum{
   display: flex;
-  height: 200px;
+  height: 275px;
   width: 300px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
 }
 #donut{
   display: flex;
-  height: 200px;
+  height: 275px;
   width: 300px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
 }
 #myrtle{
   display: flex;
-  height: 200px;
+  height: 275px;
   width: 300px;
   padding-left: 200px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
 }
 #bedford{
   display: flex;
-  height: 200px;
+  height: 275px;
   width: 300px;
   padding-right: 200px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
 }
 #section1{
   display: inline-flex;
@@ -165,6 +181,7 @@ h2{
   height: 50px;
   justify-content: center;
   margin-bottom: 0px;
+  font-size: 35px;
 }
 .columnholder{
   display: flex;
@@ -172,4 +189,18 @@ h2{
   justify-content: center;
   margin-bottom: -4%;
   padding: -1%;
+}
+.contactinfo{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 1200px;
+}
+.copyrightinfo{
+  background-color: black;
+  text-align: left;
+  font-size: 20px;
 }
