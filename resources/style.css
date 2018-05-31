@@ -1,12 +1,12 @@
 header{
   position: fixed;
-  background-color: ;
+  background-color:black;
   width: 100%;
   display: inline-flex;
   height: 69px;
   border-bottom: 1px solid seashell;
-  top:
-
+  z-index: 1;
+  top: 0px;
 }
 #logo{
   height: 50px;
@@ -37,8 +37,71 @@ body{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  margin-top: 70px;
 }
 #mission{
   color: white;
   background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+#teamonth{
+  display: flex;
+  height: 700px;
+  width: 1000px;
+  flex-direction: column;
+}
+.teatype{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px;
+}
+#fall{
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+#rum{
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+#donut{
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+#myrtle{
+  display: flex;
+  height: 200px;
+  width: 300px;
+  padding-left: 200px;
+}
+#bedford{
+  display: flex;
+  height: 200px;
+  width: 300px;
+  padding-right: 200px;
+}
+#section1{
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 20px;
+  flex-direction: row;
+  width: 1200px;
+
+}
+#section2{
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1200px;
+}
+#teamonthhead{
+  display: inline-flex;
+  flex-direction: row;
 }
