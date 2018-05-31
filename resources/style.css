@@ -37,7 +37,6 @@ body{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  border: 1px solid white;
   display: flex;
   align-items: center;
   z-index: 2;
@@ -49,11 +48,15 @@ body{
   width: 1200px;
   text-align: center;
 }
+#mission h4{
+  font-size: 20px;
+}
 #teamonth{
   display: flex;
   height: 700px;
   width: 1000px;
   flex-direction: column;
+  padding-left: 90px;
 }
 .teatype{
   display: flex;
@@ -90,18 +93,83 @@ body{
 #section1{
   display: inline-flex;
   justify-content: space-around;
-  margin: 20px;
   flex-direction: row;
-  width: 1200px;
+  width: 1000px;
 
 }
 #section2{
   display: inline-flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 1200px;
+  width: 1000px;
 }
 #teamonthhead{
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
+  text-align: center;
+  align-items: center;
+  width: 1000px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  margin-bottom: -1%;
+}
+#teamonthhead h4{
+  font-size: 25px;
+}
+h2{
+  font-size: 30px;
+}
+#teamonthhead h4{
+  margin-top: -1%;
+  font-size: 20px;
+}
+#locations{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  flex-direction: column;
+  align-content: center;
+}
+.column1{
+  display: flex;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+}
+.column2{
+  display: flex;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+}
+.column3{
+  display: flex;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+}
+#column{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+#locationheader{
+  display: flex;
+  position: relative;
+  top: 1px;
+  width: 1200px;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.columnholder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: -4%;
+  padding: -1%;
 }
