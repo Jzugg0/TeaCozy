@@ -4,27 +4,43 @@ header{
   width: 100%;
   display: inline-flex;
   height: 69px;
-  border: 1px solid seashell;
+  border-bottom: 1px solid seashell;
 }
 #logo{
   height: 50px;
-
-
-
-
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 #navbutton{
   color: white;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 50px;
-
 }
 nav{
   display: inline-flex;
   padding-left: 50px;
   margin-left: 280px;
-
+}
+a{
+  color: white;
+}
+body{
+  background-color: black;
+}
+#intro{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  position: static;
+  z-index: 2;
+}
+.mission{
+  color: white;
+  background-color: black;
+  position: static;
+  z-index: 1;
 }
